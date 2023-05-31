@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --branco: #ffffff;
+  --font1: Verdana;
+
+}
+
+header {
+  background: linear-gradient(90.05deg, #000000 24.85%, #006384 64.76%, #002F45 99.45%), #006384;
+  border: 1px solid #07F93C;
+  box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+  text-transform: uppercase;
+  font-family: var(--font1);
+}
+
+.botao-nav {
+  display: flex;
+  justify-content: space-between;
+  color: var(--branco);
+  align-items: center;
+  padding: 30px;
+
+}
+
+.botao-voltar svg {
+  fill: var(--branco);
+  text-decoration: none;
+  height: 40px;
+}
+
+.botao-fechar svg {
+  fill: var(--branco);
+  text-decoration: none;
+  height: 40px;
+}
+
+/*BANNER*/
+
+.banner {
+  background-image: url(../img/background.png);
+  height: 944px;
+  background-size: cover;
+  justify-items: center;
+  display: flex;
+}
+
+.posiciomaneto-menu {
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 350px;
+
+}
+
+.posiciomaneto-menu img {
+  width: 100px;
+}
+
+.menu-lateral {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.menu-lateral a {
+  font-size: 30px;
+  color: var(--branco);
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: var(--font1);
+  padding: 30px;
+}
+
+hr {
+  width: 150px;
+  height: 3px;
+  background-color: #ffffff;
+}
+
+
+/* SECAO FORMULARIO*/
+
+.section__formulario {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: calc(100% - 350px);
+}
+
+.formulario-central {
+
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  margin: 20px;
+}
+
+.botaao1 {
+  color: var(--branco);
+  margin: 20px;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.botao2 {}
+
+.div__alinhamento_campos {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+
+
+
+}
+
+.div__alinhamento_dt_funcao {
+  display: flex;
+  align-items: center;
+  width: 468px;
+  justify-content: space-between;
+
+}
+
+.div__alinhamento_campos input {
+  margin-top: 11px;
+  margin-bottom: 28px;
+  /* margin: 11px 0 28px 0; */
+  background: rgba(255, 255, 255, 0.11);
+  backdrop-filter: blur(4px);
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 5px;
+  width: 468px;
+  height: 35px;
+}
+
+
+.div__alinhamento_campos select {
+  margin-top: 11px;
+  margin-bottom: 28px;
+  /* margin: 11px 0 28px 0; */
+  background: rgba(255, 255, 255, 0.11);
+  backdrop-filter: blur(4px);
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 5px;
+  width: 220px;
+  height: 35px;
+}
+.div__alinhamento_campos .div__alinhamento_campos_data{
+  width: 220px;
+  height: 35px;
+}
+.div__alinhamento_campos label {
+  color: var(--branco);
+}
+.botao_cadastrar{
+  height: 50px;
+  width: 150px;
+  border-radius: 10px;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bold;
